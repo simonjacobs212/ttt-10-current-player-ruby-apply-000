@@ -1,13 +1,6 @@
 def turn_count(board)
   turn_count = 1
-  while turn_count < 10
-    turn(board, current_player)
-    turn_count += 1
-    if n % 2 == 0
-      return true
-    end
-  end
-end
+
 
 
 def current_player(board)
