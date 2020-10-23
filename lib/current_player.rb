@@ -7,6 +7,9 @@ end
 
 turn_count([" "," ","X"," "," ","O"," "," "," "])
 
+def position_taken?(board, location)
+  board[location] != " " && board[location] != ""
+end
 
 
 def current_player(board)
