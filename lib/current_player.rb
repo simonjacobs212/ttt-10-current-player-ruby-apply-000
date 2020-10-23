@@ -1,6 +1,9 @@
 def turn_count(board)
   turn_count = 0
-  if 
+  board.each do |space|
+    print space
+  end
+  if
 
 
 
