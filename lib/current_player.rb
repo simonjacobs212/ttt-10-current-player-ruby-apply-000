@@ -11,7 +11,6 @@ def position_taken?(board, location)
   board[location] != " " && board[location] != ""
 end
 
-
 def current_player(board)
   current_player = "X"
   if current_player == "X"
