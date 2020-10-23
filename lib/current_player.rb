@@ -6,7 +6,7 @@ def turn_count(board)
     if n % 2 == 0 = true
       return true
     end
-    end
+  end
 end
 
 
