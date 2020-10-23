@@ -7,8 +7,6 @@ def turn_count(board)
   num_turns
 end
 
-turn_count([" "," ","X"," "," ","O"," "," "," "])
-
 def position_taken?(space)
   board[location] != " " && board[location] != ""
 end
