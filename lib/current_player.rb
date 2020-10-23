@@ -9,7 +9,7 @@ def turn_count(board)
 end
 
 def position_taken?(space)
-  space != " " && space[location] != ""
+  space != " " && space != ""
 end
 
 def current_player(board)
