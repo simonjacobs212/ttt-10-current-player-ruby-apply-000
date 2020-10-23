@@ -13,9 +13,9 @@ def position_taken?(space)
 end
 
 def current_player(board)
-  if current_player == "X"
-    current_player = "O"
+  if turn_count(board) % 2 == 0
+    player = "X"
   else
-    current_player = "X"
+    player = "O"
   end
 end
