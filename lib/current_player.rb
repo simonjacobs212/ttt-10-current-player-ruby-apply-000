@@ -5,6 +5,8 @@ def turn_count(board)
   end
 end
 
+turn_count = [" "," "," "," "," "," "," "," "," "]
+
 
 
 def current_player(board)
